@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Jogo da Forca </title>
+	<meta charset="utf-8">	
+	<script type="text/javascript" src="script.js"> </script>
+	<style type="text/css">
+
+			.config{
+				font-family:News Roman;
+				font-size:36px;
+				color:black;
+			}
+				.escolhaLetra{
+					top:430px;
+						left:-70px;
+			}
+					.mensagem{
+						top:200px;
+						left:-100px;
+			}
+						.painel{
+							top:250px;
+			}
+							body {text-align: center;
+			}
+
+</style>
+	</head>
+	<body background="https://wallpapercave.com/wp/He9lLee.png">
+	<font size="6" face="Arial" color="black" style="float: center;"> Jogo da Forca</font>
+
+		
+		<div class="jpeg">	
+			<p class="config"> Jogo da Forca de Peças de Vestir </p>	
+		</div>	
+
+		<div class="jpeg">	
+			<img id="corpoBoneco" src="boneco/0.png"/>
+		</div>
+				
+		<div class="jpeg escolhaDaLetra config">	
+			<p id="escolhaDaLetra"> </p>	
+		</div>
+				
+		<div class="jpeg mensagemFinal config">	
+			<p id="mensagemFinal"> </p>
+		</div>
+				
+		<div class="jpeg painel">
+			<input type="text" id="letra" value= "" onfocus="this.value='';"> </input> <br/>
+			<button id="enviar"> OK </button>	
+		</div>
+	</tr>
+	</body>
+</html>
